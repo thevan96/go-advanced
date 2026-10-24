@@ -22,7 +22,11 @@ func gen(ctx context.Context, start, step int) <-chan int {
 	go func() {
 		defer close(out)
 		for v := start; ; v += step {
-			out <- v // TODO: this send blocks forever once nobody is receiving
+			select {
+			case <-ctx.Done():
+				return
+			case out <- v:
+			}
 		}
 	}()
 	return out
@@ -32,7 +36,8 @@ func gen(ctx context.Context, start, step int) <-chan int {
 // the context carried one at all.
 func requestID(ctx context.Context) (string, bool) {
 	// TODO: read the value
-	return "", false
+	id, ok := ctx.Value(requestKey{}).(string)
+	return id, ok
 }
 
 // ---- scaffolding: scenario runner ----
