@@ -1,0 +1,8 @@
+--- PASS: TestClamp
+    --- PASS: TestClamp/inside
+    --- PASS: TestClamp/low_edge
+    --- PASS: TestClamp/high_edge
+    --- PASS: TestClamp/below_range
+    --- PASS: TestClamp/above_range
+PASS
+passed 5/5

@@ -1,0 +1,6 @@
+value
+request: req-42
+values: 100 110
+err: context canceled
+closed: true
+leaked: false

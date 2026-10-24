@@ -1,0 +1,5 @@
+cancel
+values: 10 15 20
+err: context canceled
+closed: true
+leaked: false

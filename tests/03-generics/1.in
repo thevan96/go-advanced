@@ -1,0 +1,6 @@
+add int 5
+add meters 5
+add celsius 21.5
+add str 5
+has int 5
+has float 5

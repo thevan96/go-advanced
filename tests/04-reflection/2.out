@@ -1,0 +1,8 @@
+Name (name) = ""
+Port (port) = 8080
+Retries (retries) = 0
+Level (level) = 0
+Debug (debug) = false
+Region (region) = "eu"
+missing required: name
+missing required: retries

@@ -1,0 +1,6 @@
+name=svc
+port=443
+retries=3
+level=5
+debug=on
+region=us-east

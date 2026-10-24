@@ -1,0 +1,7 @@
+--- FAIL: TestClamp
+    --- PASS: TestClamp/inside
+    --- PASS: TestClamp/below
+    --- FAIL: TestClamp/above
+        Clamp(0, 10, 15) = 10, want 9
+FAIL
+passed 2/3

@@ -1,0 +1,12 @@
+--- FAIL: TestClamp
+    --- FAIL: TestClamp/wrong_low
+        Clamp(1, 5, 0) = 1, want 0
+        want 0 is outside [1, 5]
+    --- FAIL: TestClamp/wrong_high
+        Clamp(1, 5, 9) = 5, want 9
+        want 9 is outside [1, 5]
+    --- FAIL: TestClamp/bad_want
+        Clamp(-4, 4, 2) = 2, want 7
+        want 7 is outside [-4, 4]
+FAIL
+passed 0/3

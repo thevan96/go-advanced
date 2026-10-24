@@ -1,0 +1,10 @@
+ok name
+ok port
+ok debug
+Name (name) = "ada"
+Port (port) = 9090
+Retries (retries) = 0
+Level (level) = 0
+Debug (debug) = true
+Region (region) = "eu"
+missing required: retries

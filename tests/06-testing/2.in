@@ -1,0 +1,5 @@
+inside|0 10 5|5
+low edge|0 10 0|0
+high edge|0 10 10|10
+below range|0 10 -3|0
+above range|0 10 15|10

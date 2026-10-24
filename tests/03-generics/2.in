@@ -1,0 +1,4 @@
+add int 1
+has slice 1
+add slice 2
+has int 1

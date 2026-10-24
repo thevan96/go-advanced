@@ -1,0 +1,12 @@
+ok name
+ok port
+ok retries
+ok level
+ok debug
+ok region
+Name (name) = "svc"
+Port (port) = 443
+Retries (retries) = 3
+Level (level) = 5
+Debug (debug) = true
+Region (region) = "us-east"
